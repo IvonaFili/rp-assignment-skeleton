@@ -24,7 +24,7 @@ public class SolutionFactory {
 	public static StoppableRunnable createRangeController(
 			DifferentialDriveRobot _robot, RangeFinderDescription _desc,
 			RangeFinder _ranger, Float _maxDistance) {
-		return null;
+		return new Follow(_robot, _desc, _ranger, _maxDistance);
 	}
 
 }
