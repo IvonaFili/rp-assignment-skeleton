@@ -26,7 +26,6 @@ public class Follow implements StoppableRunnable {
     @Override
     public void run() {
         float maxTravelSpeed = (float)robot.getDifferentialPilot().getMaxTravelSpeed();
-    float minRange = desc.getMinRange();
     float maxRange = maxDistance;
     float setpoint = (maxRange);
     double delay = 0.5;
